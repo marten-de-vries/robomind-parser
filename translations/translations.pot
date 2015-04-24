@@ -1,0 +1,131 @@
+msgid ""
+msgstr ""
+
+msgid "true"
+msgstr ""
+
+msgid "false"
+msgstr ""
+
+msgid "return"
+msgstr ""
+
+msgid "forward"
+msgstr ""
+
+msgid "backward"
+msgstr ""
+
+msgid "left"
+msgstr ""
+
+msgid "right"
+msgstr ""
+
+msgid "north"
+msgstr ""
+
+msgid "south"
+msgstr ""
+
+msgid "east"
+msgstr ""
+
+msgid "west"
+msgstr ""
+
+msgid "paintWhite"
+msgstr ""
+
+msgid "paintBlack"
+msgstr ""
+
+msgid "stopPainting"
+msgstr ""
+
+msgid "pickUp"
+msgstr ""
+
+msgid "putDown"
+msgstr ""
+
+msgid "eatUp"
+msgstr ""
+
+msgid "flipCoin"
+msgstr ""
+
+msgid "leftIsObstacle"
+msgstr ""
+
+msgid "leftIsClear"
+msgstr ""
+
+msgid "leftIsBeacon"
+msgstr ""
+
+msgid "leftIsWhite"
+msgstr ""
+
+msgid "leftIsBlack"
+msgstr ""
+
+msgid "frontIsObstacle"
+msgstr ""
+
+msgid "frontIsClear"
+msgstr ""
+
+msgid "frontIsBeacon"
+msgstr ""
+
+msgid "frontIsWhite"
+msgstr ""
+
+msgid "frontIsBlack"
+msgstr ""
+
+msgid "rightIsObstacle"
+msgstr ""
+
+msgid "rightIsClear"
+msgstr ""
+
+msgid "rightIsBeacon"
+msgstr ""
+
+msgid "rightIsWhite"
+msgstr ""
+
+msgid "rightIsBlack"
+msgstr ""
+
+msgid "repeat"
+msgstr ""
+
+msgid "repeatWhile"
+msgstr ""
+
+msgid "if"
+msgstr ""
+
+msgid "else"
+msgstr ""
+
+msgid "procedure"
+msgstr ""
+
+msgid "not"
+msgstr ""
+
+msgid "and"
+msgstr ""
+
+msgid "or"
+msgstr ""
+
+msgid "break"
+msgstr ""
+
+msgid "end"
+msgstr ""

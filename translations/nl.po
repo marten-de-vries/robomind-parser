@@ -1,0 +1,131 @@
+msgid ""
+msgstr ""
+
+msgid "true"
+msgstr "waar"
+
+msgid "false"
+msgstr "onwaar"
+
+msgid "return"
+msgstr "retourneer"
+
+msgid "forward"
+msgstr "vooruit"
+
+msgid "backward"
+msgstr "achteruit"
+
+msgid "left"
+msgstr "links"
+
+msgid "right"
+msgstr "rechts"
+
+msgid "north"
+msgstr "noord"
+
+msgid "south"
+msgstr "zuid"
+
+msgid "east"
+msgstr "oost"
+
+msgid "west"
+msgstr "west"
+
+msgid "paintWhite"
+msgstr "verfWit"
+
+msgid "paintBlack"
+msgstr "verfZwart"
+
+msgid "stopPainting"
+msgstr "stopVerven"
+
+msgid "pickUp"
+msgstr "pakOp"
+
+msgid "putDown"
+msgstr "zetNeer"
+
+msgid "eatUp"
+msgstr "eetOp"
+
+msgid "flipCoin"
+msgstr "kopOfMunt"
+
+msgid "leftIsObstacle"
+msgstr "linksIsObstakel"
+
+msgid "leftIsClear"
+msgstr "linksIsVrij"
+
+msgid "leftIsBeacon"
+msgstr "linksIsBaken"
+
+msgid "leftIsWhite"
+msgstr "linksIsWit"
+
+msgid "leftIsBlack"
+msgstr "linksIsZwart"
+
+msgid "frontIsObstacle"
+msgstr "voorIsObstakel"
+
+msgid "frontIsClear"
+msgstr "voorIsVrij"
+
+msgid "frontIsBeacon"
+msgstr "voorIsBaken"
+
+msgid "frontIsWhite"
+msgstr "voorIsWit"
+
+msgid "frontIsBlack"
+msgstr "voorIsZwart"
+
+msgid "rightIsObstacle"
+msgstr "rechtsIsObstakel"
+
+msgid "rightIsClear"
+msgstr "rechtsIsVrij"
+
+msgid "rightIsBeacon"
+msgstr "rechtsIsBaken"
+
+msgid "rightIsWhite"
+msgstr "rechtsIsWit"
+
+msgid "rightIsBlack"
+msgstr "rechtsIsZwart"
+
+msgid "repeat"
+msgstr "herhaal"
+
+msgid "repeatWhile"
+msgstr "herhaalZolang"
+
+msgid "if"
+msgstr "als"
+
+msgid "else"
+msgstr "anders"
+
+msgid "procedure"
+msgstr "procedure"
+
+msgid "not"
+msgstr "niet"
+
+msgid "and"
+msgstr "en"
+
+msgid "or"
+msgstr "of"
+
+msgid "break"
+msgstr "doorbreekLus"
+
+msgid "end"
+msgstr "einde"

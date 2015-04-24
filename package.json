@@ -1,0 +1,53 @@
+{
+  "name": "robomind-parser",
+  "version": "1.0.1",
+  "description": "Parser for the RoboMind scripting language",
+  "main": "index.js",
+  "bin": {
+    "robomind-parser": "./bin/robomind-parser"
+  },
+  "dependencies": {
+    "iconv-lite": "^0.4.7"
+  },
+  "devDependencies": {
+    "chai": "^2.2.0",
+    "istanbul": "^0.3.13",
+    "jshint": "^2.6.3",
+    "mocha": "^2.2.1",
+    "pegjs": "^0.8.0",
+    "pofile": "^0.2.12",
+    "uglify-js": "^2.4.19"
+  },
+  "scripts": {
+    "test": "npm run build && npm run jshint && npm run coverage",
+    "build": "npm run build-translations && npm run build-parser && npm run minify",
+    "build-translations": "./bin/build-translations",
+    "build-parser": "./node_modules/.bin/pegjs --allowed-start-rules Script,Map robomind.pegjs parser.js",
+    "minify": "./node_modules/.bin/uglifyjs -mc -o parser.js parser.js",
+    "jshint": "./node_modules/.bin/jshint index.js test/test.js bin/* translations/gen/*",
+    "coverage": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha",
+    "prepublish": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marten-de-vries/robomind-parser.git"
+  },
+  "keywords": [
+    "robomind",
+    "script",
+    "language",
+    "parser",
+    "robot",
+    "ast",
+    "skidbot"
+  ],
+  "author": "Marten de Vries",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marten-de-vries/robomind-parser/issues"
+  },
+  "browser": {
+    "iconv-lite": false,
+    "fs": false
+  }
+}
