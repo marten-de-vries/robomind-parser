@@ -59,6 +59,10 @@ You don't need to be able to code to contribute, everyone can help with
 translations. Do make sure that the translations are the same as the one
 RoboMind uses, otherwise it becomes impossible to load its files.
 
+You can translate robomind-parser
+[on the online Launchpad](https://translations.launchpad.net/robomind-parser)
+site.
+
 TODOS
 -----
 

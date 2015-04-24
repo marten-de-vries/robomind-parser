@@ -1,6 +1,6 @@
 {
   "name": "robomind-parser",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Parser for the RoboMind scripting language",
   "main": "index.js",
   "bin": {
