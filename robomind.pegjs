@@ -25,11 +25,11 @@
     }
   }
 
-  function callExpression(name, args, nativeName) {
+  function callExpression(name, args) {
     return {
       type: 'CallExpression',
       name: name,
-      nativeName: stdlib[name] || nativeName || null,
+      nativeName: stdlib[name.toLowerCase()] || null,
       arguments: args || [],
       line: line(),
       column: column()
@@ -39,7 +39,7 @@
   function fakeCall(name) {
     return {
       type: 'CallStatement',
-      expr: callExpression(name, null, name)
+      expr: callExpression(name, null)
     };
   }
 
@@ -69,11 +69,9 @@
 // concepts borrowed from https://golang.org/ref/spec and
 // https://github.com/pegjs/pegjs/blob/master/examples/javascript.pegjs
 
-ID = first:Letter others:(Letter / UnicodeDigit)* {
+ID = first:UnicodeLetter others:(UnicodeLetter / "_" / UnicodeDigit)* {
   return first + others.join("");
 };
-
-Letter = UnicodeLetter / '_'
 
 UnicodeLetter
   = Lu

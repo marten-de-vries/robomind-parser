@@ -120,7 +120,7 @@ msgid "repeat"
 msgstr "werhelje"
 
 msgid "repeatWhile"
-msgstr "werheljeOant"
+msgstr "werheljeSalangt"
 
 msgid "if"
 msgstr "as"

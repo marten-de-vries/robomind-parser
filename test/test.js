@@ -406,6 +406,29 @@ describe("script parser", function () {
 	]
       });
     });
+    it("should parse a foreign language break statement", function () {
+      parser.parseScript('werhelje { kapjeOf }', {language: 'fy'}).should.eql({
+	type: 'Script',
+	body: [
+	  {
+	    type: 'InfiniteLoopStatement',
+	    body: [
+	      {
+		type: 'CallStatement',
+		expr: {
+		  type: 'CallExpression',
+		  name: 'kapjeOf',
+		  nativeName: 'break',
+		  arguments: [],
+		  line: 1,
+		  column: 12
+		}
+	      }
+	    ]
+	  }
+	]
+      });
+    });
     it("should parse a Dutch script", function () {
       parser.parseScript("herhaal {noord(waar)}", {language: 'nl'}).should.eql({
 	type: 'Script',
