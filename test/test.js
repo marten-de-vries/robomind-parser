@@ -388,6 +388,24 @@ describe("script parser", function () {
   });
 
   describe("translations", function () {
+    it("should parse a non-ascii script", function () {
+      parser.parseScript('foarút', {language: 'fy'}).should.eql({
+	type: 'Script',
+	body: [
+	  {
+	    type: 'CallStatement',
+	    expr: {
+	      type: 'CallExpression',
+	      name: 'foarút',
+	      nativeName: 'forward',
+	      arguments: [],
+	      line: 1,
+	      column: 1
+	    }
+	  }
+	]
+      });
+    });
     it("should parse a Dutch script", function () {
       parser.parseScript("herhaal {noord(waar)}", {language: 'nl'}).should.eql({
 	type: 'Script',
@@ -425,7 +443,7 @@ describe("script parser", function () {
 
 describe("get parser info", function () {
   it("should list all supported languages", function () {
-    parser.languages.should.eql(['en', 'nl']);
+    parser.languages.should.eql(['en', 'fy', 'nl']);
   });
   it("should return keywords", function () {
     var info = parser.info('keywords', 'en');

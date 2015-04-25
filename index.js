@@ -13,6 +13,7 @@ try {
 
 var stdlibs = {
   en: require('./translations/gen/en'),
+  fy: require('./translations/gen/fy'),
   nl: require('./translations/gen/nl')
 };
 
