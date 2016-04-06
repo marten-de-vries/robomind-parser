@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "chai": "^2.2.0",
-    "istanbul": "^0.3.13",
+    "istanbul": "^0.4.3",
     "jshint": "^2.6.3",
     "mocha": "^2.2.1",
     "pegjs": "^0.8.0",
