@@ -10,7 +10,7 @@
     "iconv-lite": "^0.4.7"
   },
   "devDependencies": {
-    "chai": "^2.2.0",
+    "chai": "^4.0.0",
     "istanbul": "^0.4.3",
     "jshint": "^2.6.3",
     "mocha": "^2.2.1",
